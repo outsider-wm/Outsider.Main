@@ -11,4 +11,10 @@
     <ProjectReference Include="..\Outsider.Wrapper\Outsider.Wrapper.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="moniori.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
